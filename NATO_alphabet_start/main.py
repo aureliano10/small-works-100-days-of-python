@@ -34,9 +34,10 @@ phonetic_dict = {row.letter:row.code for (index, row) in alphabet_df.iterrows()}
 #voy a tomar la entrada del usuario
 user_phonetic = input("Type your name: \n").upper()
 
-#agrego cada letra a una lista
-user_phonetic_list = [let for let in user_phonetic]
+#interpreto cada letra con cada codigo en phonetic_dict y lo agrego a una nueva lista
+user_phonetic_list = [phonetic_dict[let] for let in user_phonetic]
 
-#interpreto cada letra con cada codigo en phonetic_dict y lo agrego a una nueva lista "output_phonetic_name"
-output_phonetic_name = [phonetic_dict[let] for let in user_phonetic_list]
-print(output_phonetic_name)
+print(user_phonetic_list)
+
+
+
