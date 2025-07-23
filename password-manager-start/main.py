@@ -1,8 +1,29 @@
 import tkinter as tk
 from tkinter import messagebox
 import random
+import json
 
 FONT= ("Arial", 10, "normal")
+
+# ---------------------------- Search Password ----------------------------------#
+
+def search_password():
+    website = input_website.get()
+    if len(website) <= 0:
+        messagebox.showinfo(title= "Error", message= "Please enter a word")
+
+    try:
+        with open("data.json", "r") as file:
+            data = json.load(file)
+    except (FileNotFoundError,json.decoder.JSONDecodeError):
+        messagebox.showinfo(title="Passwords", message="Your password list is empty")
+    else:
+        try:
+            website_data = data[website]
+            messagebox.showinfo(title="Passwords", message=f"Email: {website_data["email"]}\n"
+                                                           f"Password: {website_data["password"]}")
+        except KeyError:
+            messagebox.showinfo(title="Passwords", message=f"There is not passdword for: '{website}'")
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def generate_password():
@@ -26,21 +47,48 @@ def generate_password():
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def save_data():
     """Guardar datos"""
-    web_site = input_website.get()
+    website = input_website.get()
     email = input_email.get()
     password = input_password.get()
-    if web_site == "" or password == "" or email == "":
+    new_data = {
+        website: {
+            "email": email,
+            "password": password,
+        }
+    }
+
+    if website == "" or password == "" or email == "":
         messagebox.showinfo(title="Error", message="Complete the fields")
+
     else:
-        is_ok = messagebox.askokcancel(title=f"{web_site}", message= f"save your data?\n"
+        is_ok = messagebox.askokcancel(title=f"{website}", message= f"save your data?\n"
                                                                      f"email: {email}\n"
                                                                      f"password: {password}")
         if is_ok:
-            with open("data.txt", "a") as file:
-                file.write(f"{web_site} | {email} | {password} \n")
+            try:
+                with open("data.json", "r") as file:
+                    # file.write(f"{web_site} | {email} | {password} \n")
+                    # #--cargar datos json
+                    # json.dump(new_data, file, indent= 4)
+                    #--leer datos json
+                    data = json.load(file)
+            except (FileNotFoundError, json.decoder.JSONDecodeError):
+                #--en caso de no estar inicializado el data.json
+                #--esta-es-una-solucion
+                #data = {}
+                #--esta-es-otra
+                with open("data.json", "w") as file:
+                    json.dump(new_data, file, indent= 4)
+            else:
+                #--actualizar datos json
+                data.update(new_data)
 
-            input_website.delete(0, "end")
-            input_password.delete(0, "end")
+                #--cargo los datos
+                with open("data.json", "w") as file:
+                    json.dump(data, file, indent=4)
+            finally:
+                input_website.delete(0, "end")
+                input_password.delete(0, "end")
 
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -65,11 +113,14 @@ label_text_email.grid(column=0, row=2)
 label_text_password = tk.Label(text = "Password:", font=FONT)
 label_text_password.grid(column=0, row= 3)
 
-input_website = tk.Entry(width=38)
-input_website.grid(column=1, row=1, columnspan=2)
+input_website = tk.Entry(width=21)
+input_website.grid(column=1, row=1)
 
 #la funcion focus coloca el cursor en esa posicion
 input_website.focus()
+
+button_search = tk.Button(text="Search", width=14, command= search_password)
+button_search.grid(column=2, row=1)
 
 input_email = tk.Entry(width=38)
 input_email.grid(column= 1, row= 2,columnspan= 2)
