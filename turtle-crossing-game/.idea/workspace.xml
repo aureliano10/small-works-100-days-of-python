@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18765322-ed25-4903-906f-672216914115" name="Changes" comment="" />
+    <list default="true" id="18765322-ed25-4903-906f-672216914115" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../email_send/examples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../email_send/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../email_send/quotes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NATO_alphabet_start/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NATO_alphabet_start/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-24/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day-24/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-24/my_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../day-24/my_file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-25-us-states-game-start/50_states.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-25-us-states-game-start/blank_states_img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-25-us-states-game-start/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-26/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day-26/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../game-states-usa/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../game-states-usa/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../password-manager-start/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/../password-manager-start/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pomodoro-tkinter/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pomodoro-tkinter/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snake-game/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../snake-game/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snake-game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../snake-game/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snake-game/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/../snake-game/scoreboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snake-game/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/../snake-game/snake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../usa_states_guess/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../usa_states_guess/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,26 +37,43 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;aureliano10&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:aureliano10/small-works-100-days-of-python.git&quot;,
+    &quot;accountId&quot;: &quot;241a3f06-5e14-4c1a-9d74-a18790637934&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2xPG00qfKU9R8EC0DXvidxRxmuG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.main.executor": "Run",
-    "Python.scoreboard.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scoreboard.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-dfff61a61320-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.159" />
+        <option value="bundled-python-sdk-4c141bd692a7-e2d783800521-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26927.90" />
       </set>
     </attachedChunks>
   </component>

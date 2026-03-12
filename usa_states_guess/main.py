@@ -15,7 +15,6 @@ all_states = data.state.to_list()
 
 guessed_states = []
 
-#stadistic_states = []
 is_states_guessed = []
 
 dict_to_csv = {}
