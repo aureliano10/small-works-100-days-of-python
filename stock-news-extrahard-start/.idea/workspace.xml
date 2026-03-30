@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08b00495-85b5-4976-9140-fd06589d7633" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../habit_tracker/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../habit_tracker/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../habit_tracker/.idea/habit_tracker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../habit_tracker/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../habit_tracker/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../habit_tracker/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../habit_tracker/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../habit_tracker/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-app-start/.idea/quizzler-app-start.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rain_alert/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../rain_alert/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "aureliano10"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:aureliano10/small-works-100-days-of-python.git",
+    "accountId": "241a3f06-5e14-4c1a-9d74-a18790637934"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="3BfQf3tSuGClQy817La26IVPHhL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/marucha/PycharmProjects/100days_of_code/stock-news-extrahard-start"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08b00495-85b5-4976-9140-fd06589d7633" name="Changes" comment="" />
+      <created>1774877744644</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774877744644</updated>
+    </task>
+    <servers />
+  </component>
+</project>
